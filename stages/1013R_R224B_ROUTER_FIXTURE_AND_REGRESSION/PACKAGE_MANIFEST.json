@@ -1,0 +1,73 @@
+{
+  "stage_id": "1013R_R224B_ROUTER_FIXTURE_AND_REGRESSION",
+  "package_type": "router_fixture_and_regression",
+  "status": "LOCAL_REVIEW_PACKAGE",
+  "github_uploaded": false,
+  "creates_new_html_page": false,
+  "required_files": [
+    "R224B_router_regression_plan.md",
+    "R224B_router_schema_normalization_notes.md",
+    "R224B_sample_M_stationery_router_expansion_fixture.md",
+    "R224B_sample_N_paper_print_router_expansion_fixture.md",
+    "R224B_sample_O_color_collision_router_expansion_fixture.md",
+    "R224B_three_sample_router_regression_matrix.json",
+    "R224B_density_effect_check.md",
+    "R224B_teacher_default_view_impact_check.md",
+    "R224B_review_ledger_impact_check.md",
+    "R224B_risk_and_misuse_regression.md",
+    "R224B_decision_report.md",
+    "validate_1013R_R224B_router_fixture_and_regression.py",
+    "R224B_validator_result.json",
+    "PACKAGE_MANIFEST.json",
+    "README_FOR_GPT_REVIEW.md"
+  ],
+  "sample_expectations": {
+    "M_stationery": {
+      "lesson_position_in_unit": "late",
+      "unit_phase_role": "practice_creation",
+      "practice_intensity": "high",
+      "student_work_time_ratio": "high",
+      "teacher_support_density": "heavy"
+    },
+    "N_paper_print": {
+      "lesson_position_in_unit": "middle",
+      "unit_phase_role": "technique_preparation",
+      "practice_intensity": "medium",
+      "student_work_time_ratio": "medium",
+      "teacher_support_density": "normal"
+    },
+    "O_color_collision": {
+      "lesson_position_in_unit": "early",
+      "unit_phase_role": "intro_understanding",
+      "practice_intensity": "medium",
+      "student_work_time_ratio": "medium",
+      "teacher_support_density": "normal"
+    }
+  },
+  "normalized_field_types": {
+    "explanation_density": "density_enum",
+    "demonstration_density": "density_or_strategy",
+    "micro_practice_count": "count_range",
+    "formal_creation_time": "density_enum",
+    "teacher_circulation_focus": "text_or_list",
+    "showcase_evaluation_intensity": "density_enum",
+    "learning_sheet_fields": "list",
+    "evidence_collection_mode": "text_or_list"
+  },
+  "boundaries": {
+    "modifies_r97b": false,
+    "adds_route": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "lesson_body_writeback": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "modifies_r222d_component_library": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false,
+    "formal_apply": false
+  },
+  "decision_target": "PASS_CONTINUE_TO_R224C_ROUTER_TO_EVENT_EXPANSION_CONTRACT"
+}

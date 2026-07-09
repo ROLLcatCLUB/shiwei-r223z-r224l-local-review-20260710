@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "check_count": 74,
+  "failed": 0,
+  "failures": [],
+  "decision": "PASS_STATIC_LEAKAGE_PRECHECK"
+}

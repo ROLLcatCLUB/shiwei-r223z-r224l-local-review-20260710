@@ -1,0 +1,505 @@
+{
+  "stage_id": "1013R_R224K_ROUTER_STANDARD_PUBLICATION_READINESS_GATE_AND_HOLD",
+  "passed": true,
+  "decision": "PASS_PUBLICATION_READINESS_GATE_AND_HOLD_UNTIL_EXPLICIT_AUTHORIZATION",
+  "check_count": 99,
+  "failed_count": 0,
+  "failed": [],
+  "checks": [
+    {
+      "name": "required_file_present::README_FOR_GPT_REVIEW.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::PACKAGE_MANIFEST.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224K_publication_readiness_gate_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224K_e_to_j_evidence_chain_matrix.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224K_remaining_risk_and_hold_rationale.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224K_release_candidate_draft_readiness_notice.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224K_boundary_check.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224K_validator_result.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::validate_1013R_R224K_router_standard_publication_readiness_gate_and_hold.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_html_files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_stage_id",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_stage_id",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_decision",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_decision",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::publication_readiness_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::publication_hold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::v0_2_not_published",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::direct_publish_forbidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::release_candidate_draft_allowed_next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix::publication_readiness_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix::publication_hold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix::v0_2_not_published",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix::direct_publish_forbidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix::release_candidate_draft_allowed_next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_technical_blocker_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_technical_blocker_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_explicit_authorization_required",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_r97b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::adds_formal_route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_frontend_backend",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::uses_runtime_provider_model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::changes_prompt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::uses_database",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::writes_lesson_body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_r222d_component_library",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_r223m_n_o_teacher_manuscripts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::formal_apply",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::publishes_v0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::creates_html_page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_evidence_stage::R224E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_evidence_stage::R224F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_evidence_stage::R224G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224H",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_evidence_stage::R224H",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224I",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_evidence_stage::R224I",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224J",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_evidence_stage::R224J",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "evidence_chain_count_is_six",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224E::status_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224E::decision_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224E::evidence_nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224E::publication_impact_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224E::risk_remaining_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224F::status_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224F::decision_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224F::evidence_nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224F::publication_impact_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224F::risk_remaining_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224G::status_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224G::decision_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224G::evidence_nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224G::publication_impact_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224G::risk_remaining_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224H::status_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224H::decision_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224H::evidence_nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224H::publication_impact_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224H::risk_remaining_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I::status_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I::decision_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I::evidence_nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I::publication_impact_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I::risk_remaining_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224J::status_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224J::decision_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224J::evidence_nonempty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224J::publication_impact_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224J::risk_remaining_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "gate_answer_true::candidate_has_publication_readiness_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "gate_answer_true::publication_should_hold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "gate_answer_true::hold_reason_is_authorization_not_technical_gap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "gate_answer_true::release_candidate_draft_allowed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "gate_answer_true::direct_publish_forbidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::R223M_STANDARD_V0_2 = NOT_PUBLISHED",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::PUBLICATION = HOLD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::No HTML",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::No R97B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::No runtime/provider/model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::No formal apply",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::No v0.2 publication",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::R223M_STANDARD_V0_2 = PUBLISHED",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::PUBLICATION = PUBLISH",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::direct_publish_allowed = true",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::formal_apply_allowed = true",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::lesson_body_writeback = true",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

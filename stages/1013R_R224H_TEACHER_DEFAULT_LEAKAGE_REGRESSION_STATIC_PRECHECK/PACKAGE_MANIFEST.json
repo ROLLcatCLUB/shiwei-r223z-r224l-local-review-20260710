@@ -1,0 +1,54 @@
+{
+  "stage_id": "1013R_R224H_TEACHER_DEFAULT_LEAKAGE_REGRESSION_STATIC_PRECHECK",
+  "package_type": "teacher_default_leakage_static_precheck",
+  "status": "LOCAL_REVIEW_PACKAGE",
+  "github_uploaded": false,
+  "creates_new_html_page": false,
+  "decision_target": "PASS_STATIC_LEAKAGE_PRECHECK",
+  "required_files": [
+    "README_FOR_GPT_REVIEW.md",
+    "PACKAGE_MANIFEST.json",
+    "R224H_teacher_default_leakage_static_precheck_report.md",
+    "R224H_forbidden_token_scan_matrix.json",
+    "R224H_teacher_facing_naturalized_samples.md",
+    "R224H_review_ledger_trace_retention_check.md",
+    "R224H_publication_status_notice.md",
+    "R224H_validator_result.json",
+    "validate_1013R_R224H_teacher_default_leakage_static_precheck.py"
+  ],
+  "samples": [
+    "F_cut_paper",
+    "G_fable_myth",
+    "H_art_family"
+  ],
+  "forbidden_tokens": [
+    "unit_phase_role",
+    "lesson_position_in_unit",
+    "practice_intensity",
+    "student_work_time_ratio",
+    "teacher_support_density",
+    "performance_task_link",
+    "stage_evidence_link",
+    "router_effect",
+    "event_count_bias",
+    "micro_practice_count",
+    "checkpoint",
+    "exit_condition",
+    "formal_creation_time"
+  ],
+  "boundaries": {
+    "modifies_r97b": false,
+    "adds_route": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "lesson_body_writeback": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "modifies_r222d_component_library": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false,
+    "formal_apply": false
+  }
+}

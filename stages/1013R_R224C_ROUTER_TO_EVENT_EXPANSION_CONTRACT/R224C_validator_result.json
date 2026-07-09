@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "check_count": 89,
+  "failed": 0,
+  "failures": [],
+  "decision": "PASS_CONTINUE_TO_R224D_ROUTER_CONTRACT_REGRESSION_OR_SCHEMA_BINDING"
+}

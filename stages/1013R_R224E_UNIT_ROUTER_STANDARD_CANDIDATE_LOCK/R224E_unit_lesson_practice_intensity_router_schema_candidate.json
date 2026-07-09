@@ -1,0 +1,113 @@
+{
+  "schema_id": "R224E_unit_lesson_practice_intensity_router_schema_candidate",
+  "stage_id": "1013R_R224E_UNIT_ROUTER_STANDARD_CANDIDATE_LOCK",
+  "status": "candidate_locked_not_published",
+  "companion_to": "R223P_5_V0_2_LOCK_CANDIDATE",
+  "formal_standard_release": false,
+  "r223m_standard_v0_2_published": false,
+  "router_input_fields": {
+    "reuse_r223p5_fields": true,
+    "fields": {
+      "unit_phase_role": {
+        "source": "R223P-5",
+        "level": "lesson_level_required_candidate_event_level_optional",
+        "allowed": [
+          "intro_understanding",
+          "technique_preparation",
+          "practice_creation",
+          "showcase_evaluation",
+          "transfer_closure",
+          "project_synthesis"
+        ],
+        "teacher_default_visibility": "naturalized_only"
+      },
+      "lesson_position_in_unit": {
+        "source": "R223P-5",
+        "level": "lesson_level_recommended",
+        "allowed": [
+          "early",
+          "middle",
+          "late",
+          "final",
+          "standalone_unknown"
+        ],
+        "teacher_default_visibility": "naturalized_only"
+      },
+      "practice_intensity": {
+        "source": "R223P-5",
+        "level": "lesson_level_required_candidate_event_level_optional",
+        "allowed": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "teacher_default_visibility": "hidden_by_default_controls_density"
+      },
+      "student_work_time_ratio": {
+        "source": "R223P-5",
+        "level": "lesson_level_optional",
+        "allowed": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "teacher_default_visibility": "hidden_by_default"
+      },
+      "teacher_support_density": {
+        "source": "R223P-5",
+        "level": "lesson_level_optional",
+        "allowed": [
+          "light",
+          "normal",
+          "heavy"
+        ],
+        "teacher_default_visibility": "naturalized_as_guidance_density"
+      },
+      "performance_task_link": {
+        "source": "R223P-5",
+        "level": "conditional_recommended",
+        "teacher_default_visibility": "naturalized_in_unit_position_or_evaluation"
+      },
+      "stage_evidence_link": {
+        "source": "R223P-5",
+        "level": "recommended",
+        "teacher_default_visibility": "naturalized_in_evaluation"
+      }
+    }
+  },
+  "router_effect_policy": {
+    "required_schema_object": false,
+    "computed_contract_output": true,
+    "review_ledger_summary_allowed": true,
+    "teacher_default_visibility": "forbidden_raw_field_names",
+    "maps_to_classroom_event_expansion_fields": [
+      "event_count_bias",
+      "explanation_density",
+      "demonstration_density",
+      "micro_practice_count",
+      "formal_creation_time",
+      "teacher_circulation_focus",
+      "showcase_evaluation_intensity",
+      "learning_sheet_fields",
+      "evidence_collection_mode",
+      "checkpoint",
+      "exit_condition"
+    ]
+  },
+  "boundaries": {
+    "modifies_r97b": false,
+    "adds_route": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "lesson_body_writeback": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "modifies_r222d_component_library": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false,
+    "formal_apply": false
+  },
+  "decision": "PASS_LOCK_UNIT_ROUTER_STANDARD_CANDIDATE"
+}

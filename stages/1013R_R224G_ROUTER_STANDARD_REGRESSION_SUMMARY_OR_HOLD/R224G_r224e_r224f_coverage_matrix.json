@@ -1,0 +1,87 @@
+{
+  "stage_id": "1013R_R224G_ROUTER_STANDARD_REGRESSION_SUMMARY_OR_HOLD",
+  "status": "summary_ready_and_publication_hold",
+  "decision": "PASS_SUMMARY_READY_AND_HOLD_PUBLICATION",
+  "r223m_standard_v0_2_published": false,
+  "r224e_locked_items": {
+    "router_input_fields_reuse_r223p5": true,
+    "router_effect_required_schema_object": false,
+    "router_effect_computed_contract_output": true,
+    "router_effect_review_ledger_summary": true,
+    "teacher_default_hides_raw_router_fields": true,
+    "review_ledger_preserves_router_trace": true,
+    "v0_2_published": false
+  },
+  "r224f_extra_regression_samples": [
+    {
+      "sample_id": "F_cut_paper",
+      "sample_name": "红红的剪纸",
+      "unit_structure_type": "technique_preparation_unit",
+      "coverage": [
+        "technique_preparation",
+        "medium practice",
+        "method demonstration",
+        "trial sample",
+        "safety and management"
+      ],
+      "regression_signal": "avoids final product pressure"
+    },
+    {
+      "sample_id": "G_fable_myth",
+      "sample_name": "寓言与神话",
+      "unit_structure_type": "project_synthesis_unit",
+      "coverage": [
+        "project_synthesis",
+        "high practice",
+        "evidence assembly",
+        "performance product",
+        "work explanation"
+      ],
+      "regression_signal": "avoids reducing project synthesis to single technique practice"
+    },
+    {
+      "sample_id": "H_art_family",
+      "sample_name": "美术大家庭",
+      "unit_structure_type": "appreciation_intro_understanding_unit",
+      "coverage": [
+        "intro_understanding",
+        "low practice",
+        "observation",
+        "classification",
+        "life connection"
+      ],
+      "regression_signal": "avoids high-intensity making for appreciation/cognition lesson"
+    }
+  ],
+  "covered_capabilities": {
+    "technique_preparation": true,
+    "project_synthesis": true,
+    "appreciation_intro_understanding": true,
+    "practice_intensity_difference": true,
+    "student_work_time_ratio_difference": true,
+    "teacher_support_density_difference": true,
+    "teacher_visibility_guard": true,
+    "review_ledger_trace": true
+  },
+  "not_yet_covered_for_publication": {
+    "teacher_default_true_generation_leak_regression": false,
+    "classroom_event_expansion_formal_field_convergence": false,
+    "ui_or_r97b_readiness": false,
+    "cross_grade_real_unit_pressure_test": false,
+    "long_unit_short_unit_stress_test": false
+  },
+  "boundaries": {
+    "creates_html_page": false,
+    "modifies_r97b": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "lesson_body_writeback": false,
+    "modifies_r222d_component_library": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "formal_apply": false,
+    "publishes_v0_2": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "stage_id": "1013R_R224C_ROUTER_TO_EVENT_EXPANSION_CONTRACT",
+  "package_type": "router_to_event_expansion_contract",
+  "status": "LOCAL_REVIEW_PACKAGE",
+  "github_uploaded": false,
+  "creates_new_html_page": false,
+  "required_files": [
+    "R224C_router_to_event_expansion_contract.md",
+    "R224C_router_output_to_event_field_mapping.json",
+    "R224C_router_effect_on_teacher_manuscript_rules.md",
+    "R224C_router_effect_on_review_ledger_rules.md",
+    "R224C_router_effect_on_screen_sheet_evidence_rules.md",
+    "R224C_event_density_rules_by_unit_phase_role.md",
+    "R224C_three_sample_contract_trace.md",
+    "R224C_risk_and_misuse_notes.md",
+    "R224C_decision_report.md",
+    "validate_1013R_R224C_router_to_event_expansion_contract.py",
+    "R224C_validator_result.json",
+    "PACKAGE_MANIFEST.json",
+    "README_FOR_GPT_REVIEW.md"
+  ],
+  "required_unit_phase_roles": [
+    "intro_understanding",
+    "technique_preparation",
+    "practice_creation",
+    "showcase_evaluation",
+    "transfer_closure",
+    "project_synthesis"
+  ],
+  "required_event_fields": [
+    "explanation_density",
+    "demonstration_density",
+    "micro_practice_count",
+    "formal_creation_time",
+    "teacher_circulation_focus",
+    "showcase_evaluation_intensity",
+    "learning_sheet_fields",
+    "evidence_collection_mode",
+    "checkpoint",
+    "exit_condition"
+  ],
+  "boundaries": {
+    "modifies_r97b": false,
+    "adds_route": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "lesson_body_writeback": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "modifies_r222d_component_library": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false,
+    "formal_apply": false
+  },
+  "decision_target": "PASS_CONTINUE_TO_R224D_ROUTER_CONTRACT_REGRESSION_OR_SCHEMA_BINDING"
+}

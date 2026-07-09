@@ -1,0 +1,143 @@
+{
+  "stage_id": "1013R_R224F_ROUTER_STANDARD_EXTRA_UNIT_REGRESSION",
+  "status": "extra_unit_regression_fixture_only",
+  "source_candidate": "R224E_UNIT_ROUTER_STANDARD_CANDIDATE_LOCK",
+  "r223m_standard_v0_2_published": false,
+  "samples": [
+    {
+      "sample_id": "F_cut_paper",
+      "sample_name": "红红的剪纸",
+      "unit_structure_type": "technique_preparation_unit",
+      "router_input_values": {
+        "unit_phase_role": "technique_preparation",
+        "lesson_position_in_unit": "middle",
+        "practice_intensity": "medium",
+        "student_work_time_ratio": "medium",
+        "teacher_support_density": "normal",
+        "performance_task_link": {
+          "task_name": "剪纸作品与纹样说明",
+          "task_contribution": "通过折、画、剪、展开和纹样观察，为后续剪纸作品表达提供技法准备。",
+          "teacher_confirmation_required": true
+        },
+        "stage_evidence_link": {
+          "evidence_name": "折剪试样、纹样记录、安全操作观察",
+          "evidence_type": ["trial_sample", "process_observation", "oral_explanation"],
+          "collection_timing": ["折法示范", "试剪小样", "纹样比较"],
+          "assessment_use": "判断学生是否掌握基本折剪方法和安全操作。"
+        }
+      },
+      "router_effect_summary": {
+        "event_count_bias": "medium_trial_focused",
+        "explanation_density": "medium",
+        "demonstration_density": "targeted",
+        "micro_practice_count": "2-3",
+        "formal_creation_time": "medium",
+        "teacher_circulation_focus": ["剪刀安全", "折法方向", "纹样连接", "展开完整性"],
+        "showcase_evaluation_intensity": "medium",
+        "learning_sheet_fields": ["折法", "纹样", "试剪问题", "改进方法"],
+        "evidence_collection_mode": ["trial_sample", "process_observation", "short_explanation"],
+        "checkpoint": ["能否安全使用剪刀", "纹样是否连着边", "展开后图形是否完整"],
+        "exit_condition": "学生能完成一个可展开的试剪小样，并说出折法或纹样特点。"
+      },
+      "expected_teacher_default_effect": "教师稿应突出示范、试剪、安全和纹样比较，不应直接压成完整复杂剪纸成品课。",
+      "review_ledger_trace": {
+        "source_status": "system_inference",
+        "assumption_status": "teacher_confirmation_required",
+        "confidence": "medium"
+      }
+    },
+    {
+      "sample_id": "G_fable_myth",
+      "sample_name": "寓言与神话",
+      "unit_structure_type": "project_synthesis_unit",
+      "router_input_values": {
+        "unit_phase_role": "project_synthesis",
+        "lesson_position_in_unit": "final",
+        "practice_intensity": "high",
+        "student_work_time_ratio": "high",
+        "teacher_support_density": "heavy",
+        "performance_task_link": {
+          "task_name": "寓言或神话主题综合表现作品",
+          "task_contribution": "整合角色、情节、场景和表现材料，完成能讲述故事含义的综合作品。",
+          "teacher_confirmation_required": true
+        },
+        "stage_evidence_link": {
+          "evidence_name": "角色草图、情节构图、材料选择说明、最终作品讲述",
+          "evidence_type": ["draft", "process_photo", "finished_work", "oral_explanation"],
+          "collection_timing": ["故事选择", "角色设计", "构图推进", "作品展示"],
+          "assessment_use": "判断学生是否能把故事理解转化为视觉表达。"
+        }
+      },
+      "router_effect_summary": {
+        "event_count_bias": "coordinated_synthesis",
+        "explanation_density": "medium",
+        "demonstration_density": "rescue",
+        "micro_practice_count": "1-2",
+        "formal_creation_time": "high",
+        "teacher_circulation_focus": ["故事主线", "角色与场景关系", "材料选择", "画面重点", "作品讲述"],
+        "showcase_evaluation_intensity": "high",
+        "learning_sheet_fields": ["故事角色", "关键情节", "画面重点", "材料理由", "作品说明"],
+        "evidence_collection_mode": ["draft", "process_photo", "finished_work", "oral_explanation"],
+        "checkpoint": ["故事是否清楚", "画面是否有主次", "材料是否服务表达"],
+        "exit_condition": "学生能用作品说明角色、情节和想表达的寓意或神话想象。"
+      },
+      "expected_teacher_default_effect": "教师稿应保护综合创作时间，强调证据整合和作品讲述，不应退回单点技法练习。",
+      "review_ledger_trace": {
+        "source_status": "system_inference",
+        "assumption_status": "teacher_confirmation_required",
+        "confidence": "medium"
+      }
+    },
+    {
+      "sample_id": "H_art_family",
+      "sample_name": "美术大家庭",
+      "unit_structure_type": "appreciation_intro_understanding_unit",
+      "router_input_values": {
+        "unit_phase_role": "intro_understanding",
+        "lesson_position_in_unit": "early",
+        "practice_intensity": "low",
+        "student_work_time_ratio": "low",
+        "teacher_support_density": "light",
+        "performance_task_link": {
+          "task_name": "美术门类关系图或成员介绍",
+          "task_contribution": "通过生活中的美术发现和分类，为后续认识不同美术门类建立基础。",
+          "teacher_confirmation_required": true
+        },
+        "stage_evidence_link": {
+          "evidence_name": "生活美术发现记录、门类分类说明、关系图",
+          "evidence_type": ["observation_record", "classification_note", "oral_explanation"],
+          "collection_timing": ["校园/生活观察", "门类分类", "成员介绍"],
+          "assessment_use": "判断学生是否能从生活中发现美术并说出基本关系。"
+        }
+      },
+      "router_effect_summary": {
+        "event_count_bias": "few_clear",
+        "explanation_density": "medium",
+        "demonstration_density": "low",
+        "micro_practice_count": "0-1",
+        "formal_creation_time": "low",
+        "teacher_circulation_focus": ["生活例子是否真实", "分类依据是否清楚", "表达是否能连接生活"],
+        "showcase_evaluation_intensity": "medium",
+        "learning_sheet_fields": ["我发现的美术", "它属于哪一类", "它让生活发生什么变化"],
+        "evidence_collection_mode": ["observation_record", "classification_note", "oral_explanation"],
+        "checkpoint": ["能否举生活例子", "能否说出分类依据"],
+        "exit_condition": "学生能用一个生活例子说明美术门类与生活的关系。"
+      },
+      "expected_teacher_default_effect": "教师稿应突出观察、分类、表达和生活连接，不应被误判成重实践创作课。",
+      "review_ledger_trace": {
+        "source_status": "system_inference",
+        "assumption_status": "teacher_confirmation_required",
+        "confidence": "medium"
+      }
+    }
+  ],
+  "global_assertions": {
+    "router_input_fields_reuse_r223p5": true,
+    "router_effect_required_schema_object": false,
+    "teacher_default_raw_router_field_visible": false,
+    "review_ledger_trace_required": true,
+    "samples_cover_technique_project_intro": true,
+    "v0_2_published": false,
+    "creates_html_page": false
+  }
+}

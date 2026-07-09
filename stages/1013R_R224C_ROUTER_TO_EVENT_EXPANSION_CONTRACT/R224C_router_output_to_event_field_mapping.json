@@ -1,0 +1,115 @@
+{
+  "stage_id": "1013R_R224C_ROUTER_TO_EVENT_EXPANSION_CONTRACT",
+  "mapping_status": "contract_only",
+  "router_fields": [
+    "lesson_position_in_unit",
+    "unit_phase_role",
+    "practice_intensity",
+    "student_work_time_ratio",
+    "teacher_support_density",
+    "performance_task_link",
+    "stage_evidence_link",
+    "router_effect"
+  ],
+  "classroom_event_expansion_fields": {
+    "event_count_bias": {
+      "source": ["unit_phase_role", "practice_intensity"],
+      "type": "density_rule",
+      "description": "Controls whether classroom events are few/clear, medium/trial-focused, or creation/support-heavy."
+    },
+    "explanation_density": {
+      "source": ["unit_phase_role", "practice_intensity"],
+      "type": "density_enum",
+      "allowed": ["low", "medium", "high"],
+      "guard": "High practice should not automatically become high explanation."
+    },
+    "demonstration_density": {
+      "source": ["unit_phase_role", "teacher_support_density"],
+      "type": "density_or_strategy",
+      "allowed": ["low", "medium", "high", "targeted", "rescue", "comparison"],
+      "guard": "Demonstration type should match lesson responsibility."
+    },
+    "micro_practice_count": {
+      "source": ["unit_phase_role", "practice_intensity"],
+      "type": "count_range",
+      "allowed": ["0-1", "1-2", "1-3", "2-3"],
+      "guard": "Micro-practice should not crowd out formal creation in practice_creation lessons."
+    },
+    "formal_creation_time": {
+      "source": ["practice_intensity", "student_work_time_ratio"],
+      "type": "density_enum",
+      "allowed": ["low", "medium", "high"]
+    },
+    "teacher_circulation_focus": {
+      "source": ["teacher_support_density", "unit_phase_role", "stage_evidence_link"],
+      "type": "text_or_list",
+      "guard": "Heavy support means better circulation and rescue, not more lecture."
+    },
+    "showcase_evaluation_intensity": {
+      "source": ["unit_phase_role", "performance_task_link", "stage_evidence_link"],
+      "type": "density_enum",
+      "allowed": ["low", "medium", "high"]
+    },
+    "learning_sheet_fields": {
+      "source": ["stage_evidence_link", "unit_phase_role"],
+      "type": "list"
+    },
+    "evidence_collection_mode": {
+      "source": ["stage_evidence_link", "practice_intensity"],
+      "type": "text_or_list"
+    },
+    "checkpoint": {
+      "source": ["teacher_support_density", "practice_intensity"],
+      "type": "text_or_list",
+      "description": "Defines when teacher checks understanding, method use, progress, or evidence readiness."
+    },
+    "exit_condition": {
+      "source": ["unit_phase_role", "stage_evidence_link"],
+      "type": "text",
+      "description": "Defines what must be visible before moving to the next lesson/event."
+    }
+  },
+  "unit_phase_role_rules": {
+    "intro_understanding": {
+      "event_count_bias": "few_clear",
+      "event_emphasis": ["observation", "comparison", "naming", "understanding", "short_expression"],
+      "avoid": ["heavy_creation", "long_product_work"]
+    },
+    "technique_preparation": {
+      "event_count_bias": "medium_trial_focused",
+      "event_emphasis": ["demonstration", "micro_practice", "method_comparison", "trial_record"],
+      "avoid": ["final_product_pressure"]
+    },
+    "practice_creation": {
+      "event_count_bias": "creation_serving",
+      "event_emphasis": ["work_time", "teacher_circulation", "rescue", "process_evidence", "revision"],
+      "avoid": ["whole_class_over_explanation"]
+    },
+    "showcase_evaluation": {
+      "event_count_bias": "critique_evidence",
+      "event_emphasis": ["work_explanation", "peer_feedback", "self_evaluation", "assessment_evidence"],
+      "avoid": ["empty_praise"]
+    },
+    "transfer_closure": {
+      "event_count_bias": "synthesis_transfer",
+      "event_emphasis": ["transfer_expression", "life_connection", "performance_task_closure"],
+      "avoid": ["new_heavy_creation_without_need"]
+    },
+    "project_synthesis": {
+      "event_count_bias": "coordinated_synthesis",
+      "event_emphasis": ["assemble_prior_evidence", "complete_product", "present_rationale"],
+      "avoid": ["isolated_activity_chain"]
+    }
+  },
+  "boundaries": {
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false,
+    "modifies_r97b": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "formal_apply": false
+  }
+}

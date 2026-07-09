@@ -1,0 +1,153 @@
+{
+  "stage_id": "1013R_R224J_CROSS_GRADE_AND_UNIT_LENGTH_PRESSURE_STATIC_REGRESSION",
+  "matrix_type": "unit_length_pressure",
+  "decision": "PASS_CROSS_GRADE_AND_LENGTH_STATIC_REGRESSION",
+  "r223m_standard_v0_2_published": false,
+  "router_effect_policy": {
+    "required_schema_object": false,
+    "computed_contract_output": true,
+    "review_ledger_summary": true,
+    "classroom_event_expansion_bridge": true,
+    "teacher_default_visible_raw_fields": false
+  },
+  "required_router_input_fields": [
+    "unit_phase_role",
+    "lesson_position_in_unit",
+    "practice_intensity",
+    "student_work_time_ratio",
+    "teacher_support_density",
+    "performance_task_link",
+    "stage_evidence_link"
+  ],
+  "required_router_effect_bridge_fields": [
+    "event_count_bias",
+    "observation_time_bias",
+    "demonstration_time_bias",
+    "micro_practice_count_bias",
+    "formal_creation_time_bias",
+    "teacher_support_density_hint",
+    "checkpoint_density_hint",
+    "exit_condition_hint"
+  ],
+  "samples": [
+    {
+      "sample_id": "R224J_single_lesson_short_task_color_observation",
+      "lesson_title": "单课短任务：生活色彩观察",
+      "grade_band": "low",
+      "unit_length_type": "single_lesson_short_task",
+      "unit_structure_type": "appreciation_intro_understanding_unit",
+      "router_input_values": {
+        "unit_phase_role": "intro_understanding",
+        "lesson_position_in_unit": "early",
+        "practice_intensity": "low",
+        "student_work_time_ratio": "low",
+        "teacher_support_density": "light",
+        "performance_task_link": "用生活色彩发现为后续色彩表达建立观察入口。",
+        "stage_evidence_link": "一张生活色彩记录或一句色彩感受表达。"
+      },
+      "computed_router_effect_summary": {
+        "event_count_bias": "low",
+        "observation_time_bias": "high",
+        "demonstration_time_bias": "low",
+        "micro_practice_count_bias": "low",
+        "formal_creation_time_bias": "low",
+        "teacher_support_density_hint": "light_focus_on_find_and_say",
+        "checkpoint_density_hint": "light_single_exit_check",
+        "exit_condition_hint": "students can name one color relation or feeling from life"
+      },
+      "affected_classroom_event_expansion_fields": {
+        "event_planning": "控制事件数，保留导入、观察、轻表达和收束。",
+        "student_response_prediction": "预判学生只说颜色名称、无法说明感受或生活位置。",
+        "teacher_scaffolding_moves": "采用生活图片追问、同伴补充和一句话表达。",
+        "evidence_trigger": "保留一条色彩观察或感受记录。"
+      },
+      "teacher_facing_naturalized_implication": "单课短任务要轻，不要把观察课扩成完整创作课。教师只需要帮助学生发现生活中的色彩关系，并留下一个清楚表达。",
+      "review_ledger_retained_trace": true,
+      "required_schema_object_leak": false,
+      "teacher_default_field_leak": false
+    },
+    {
+      "sample_id": "R224J_two_lesson_progression_printmaking",
+      "lesson_title": "两课递进：纸材试印到纸印小作",
+      "grade_band": "middle",
+      "unit_length_type": "two_lesson_progression",
+      "unit_structure_type": "technique_preparation_unit",
+      "router_input_values": {
+        "unit_phase_role": "technique_preparation",
+        "lesson_position_in_unit": "middle",
+        "practice_intensity": "medium",
+        "student_work_time_ratio": "medium",
+        "teacher_support_density": "heavy",
+        "performance_task_link": "第一课形成纸材与印痕证据，第二课把证据用于纸印小作。",
+        "stage_evidence_link": "纸材预测、试印记录、印法比较、作品说明。"
+      },
+      "computed_router_effect_summary": {
+        "event_count_bias": "medium_plus",
+        "observation_time_bias": "medium",
+        "demonstration_time_bias": "high",
+        "micro_practice_count_bias": "high",
+        "formal_creation_time_bias": "medium",
+        "teacher_support_density_hint": "heavy_focus_on_transition_from_trial_to_work",
+        "checkpoint_density_hint": "medium_high_separate_checks_for_trial_and_application",
+        "exit_condition_hint": "students can use one trial result to make one material or method choice"
+      },
+      "affected_classroom_event_expansion_fields": {
+        "event_planning": "把两课拆成试验证据与应用表达两段，避免第一课直接压成成品课。",
+        "student_response_prediction": "预判学生试印后不看记录、只凭喜好选择材料、印法迁移不稳。",
+        "teacher_scaffolding_moves": "采用试印记录回看、材料选择追问、方法复示和阶段过渡。",
+        "evidence_trigger": "保留第一课试印证据和第二课作品选择理由。"
+      },
+      "teacher_facing_naturalized_implication": "两课递进的关键是让第一课证据真的进入第二课。教师要提醒学生回看试印记录，再决定用什么纸、什么印法完成小作。",
+      "review_ledger_retained_trace": true,
+      "required_schema_object_leak": false,
+      "teacher_default_field_leak": false
+    },
+    {
+      "sample_id": "R224J_multi_lesson_project_design_expression",
+      "lesson_title": "多课项目：主题设计与综合展示",
+      "grade_band": "high",
+      "unit_length_type": "multi_lesson_project",
+      "unit_structure_type": "project_synthesis_unit",
+      "router_input_values": {
+        "unit_phase_role": "project_synthesis",
+        "lesson_position_in_unit": "late",
+        "practice_intensity": "high",
+        "student_work_time_ratio": "high",
+        "teacher_support_density": "heavy",
+        "performance_task_link": "将调研、方案、制作、展示和反思连接成完整项目成果。",
+        "stage_evidence_link": "调研记录、方案草图、制作过程、展示说明、同伴评价。"
+      },
+      "computed_router_effect_summary": {
+        "event_count_bias": "high",
+        "observation_time_bias": "medium",
+        "demonstration_time_bias": "medium",
+        "micro_practice_count_bias": "medium",
+        "formal_creation_time_bias": "high",
+        "teacher_support_density_hint": "heavy_focus_on_long_project_pacing_and_evidence_chain",
+        "checkpoint_density_hint": "dense_stage_checkpoints_across_research_plan_make_share",
+        "exit_condition_hint": "students can show how each stage evidence supports the final work"
+      },
+      "affected_classroom_event_expansion_fields": {
+        "event_planning": "增加阶段回看、过程推进、展示准备和评价闭环事件。",
+        "student_response_prediction": "预判学生跨课断裂、过程证据缺失、项目目标遗忘、展示只说结果。",
+        "teacher_scaffolding_moves": "采用阶段清单、证据回看、项目节奏提醒、展示排练和评价对照。",
+        "evidence_trigger": "保留多阶段证据链和最终展示说明。"
+      },
+      "teacher_facing_naturalized_implication": "多课项目不能只盯最后作品。教师要帮助学生把每一课留下的证据串起来，让调研、草图、制作和展示互相支撑。",
+      "review_ledger_retained_trace": true,
+      "required_schema_object_leak": false,
+      "teacher_default_field_leak": false
+    }
+  ],
+  "global_checks": {
+    "all_samples_have_grade_band": true,
+    "all_samples_have_unit_length_type": true,
+    "all_samples_have_router_inputs": true,
+    "all_samples_have_router_effect_bridge_fields": true,
+    "all_samples_have_teacher_naturalized_implication": true,
+    "all_samples_have_review_ledger_trace": true,
+    "any_required_schema_object_leak": false,
+    "any_teacher_default_field_leak": false
+  }
+}
+

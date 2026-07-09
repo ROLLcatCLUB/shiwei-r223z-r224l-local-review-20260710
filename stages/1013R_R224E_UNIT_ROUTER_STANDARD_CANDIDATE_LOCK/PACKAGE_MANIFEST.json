@@ -1,0 +1,70 @@
+{
+  "stage_id": "1013R_R224E_UNIT_ROUTER_STANDARD_CANDIDATE_LOCK",
+  "package_type": "unit_router_standard_candidate_lock",
+  "status": "LOCAL_REVIEW_PACKAGE",
+  "github_uploaded": false,
+  "creates_new_html_page": false,
+  "candidate_lock": true,
+  "formal_standard_release": false,
+  "r223m_standard_v0_2_published": false,
+  "required_files": [
+    "R224E_unit_router_standard_candidate_lock_report.md",
+    "R224E_unit_lesson_practice_intensity_router_schema_candidate.json",
+    "R224E_router_input_field_policy.md",
+    "R224E_router_effect_computed_output_policy.md",
+    "R224E_router_to_event_expansion_binding_summary.md",
+    "R224E_teacher_default_visibility_policy.md",
+    "R224E_review_ledger_trace_policy.md",
+    "R224E_three_sample_regression_summary.md",
+    "R224E_usage_boundary_and_not_publish_notice.md",
+    "R224E_next_stage_handoff.md",
+    "validate_1013R_R224E_unit_router_standard_candidate_lock.py",
+    "R224E_validator_result.json",
+    "PACKAGE_MANIFEST.json",
+    "README_FOR_GPT_REVIEW.md"
+  ],
+  "locked_router_input_fields": [
+    "unit_phase_role",
+    "lesson_position_in_unit",
+    "practice_intensity",
+    "student_work_time_ratio",
+    "teacher_support_density",
+    "performance_task_link",
+    "stage_evidence_link"
+  ],
+  "router_effect_policy": {
+    "required_schema_object": false,
+    "computed_contract_output": true,
+    "review_ledger_summary_allowed": true,
+    "teacher_default_visibility": "forbidden_raw_field_names"
+  },
+  "affected_event_expansion_fields": [
+    "event_count_bias",
+    "explanation_density",
+    "demonstration_density",
+    "micro_practice_count",
+    "formal_creation_time",
+    "teacher_circulation_focus",
+    "showcase_evaluation_intensity",
+    "learning_sheet_fields",
+    "evidence_collection_mode",
+    "checkpoint",
+    "exit_condition"
+  ],
+  "boundaries": {
+    "modifies_r97b": false,
+    "adds_route": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "lesson_body_writeback": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "modifies_r222d_component_library": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false,
+    "formal_apply": false
+  },
+  "decision_target": "PASS_LOCK_UNIT_ROUTER_STANDARD_CANDIDATE"
+}

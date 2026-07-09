@@ -1,0 +1,61 @@
+{
+  "stage_id": "1013R_R224F_ROUTER_STANDARD_EXTRA_UNIT_REGRESSION",
+  "package_type": "extra_unit_regression",
+  "status": "LOCAL_REVIEW_PACKAGE",
+  "github_uploaded": false,
+  "creates_new_html_page": false,
+  "source_candidate": "R224E_UNIT_ROUTER_STANDARD_CANDIDATE_LOCK",
+  "required_files": [
+    "README_FOR_GPT_REVIEW.md",
+    "PACKAGE_MANIFEST.json",
+    "R224F_extra_unit_regression_report.md",
+    "R224F_sample_route_matrix.json",
+    "R224F_teacher_visibility_leak_check.md",
+    "R224F_review_ledger_trace_check.md",
+    "R224F_validator_result.json",
+    "validate_1013R_R224F_router_standard_extra_unit_regression.py"
+  ],
+  "covered_sample_types": [
+    "technique_preparation_unit",
+    "project_synthesis_unit",
+    "appreciation_intro_understanding_unit"
+  ],
+  "required_router_input_fields": [
+    "unit_phase_role",
+    "lesson_position_in_unit",
+    "practice_intensity",
+    "student_work_time_ratio",
+    "teacher_support_density",
+    "performance_task_link",
+    "stage_evidence_link"
+  ],
+  "required_router_effect_fields": [
+    "event_count_bias",
+    "explanation_density",
+    "demonstration_density",
+    "micro_practice_count",
+    "formal_creation_time",
+    "teacher_circulation_focus",
+    "showcase_evaluation_intensity",
+    "learning_sheet_fields",
+    "evidence_collection_mode",
+    "checkpoint",
+    "exit_condition"
+  ],
+  "boundaries": {
+    "modifies_r97b": false,
+    "adds_route": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "lesson_body_writeback": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "modifies_r222d_component_library": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false,
+    "formal_apply": false
+  },
+  "decision_target": "PASS_CONTINUE_TO_R224G_ROUTER_STANDARD_REGRESSION_SUMMARY_OR_HOLD"
+}

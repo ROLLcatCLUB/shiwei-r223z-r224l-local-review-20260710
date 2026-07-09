@@ -1,0 +1,83 @@
+{
+  "stage_id": "1013R_R224L_R223M_STANDARD_V0_2_RELEASE_CANDIDATE_DRAFT_NON_APPLY",
+  "status": "local_review_package",
+  "package_type": "release_candidate_draft_non_apply",
+  "decision": "PASS_LOCAL_RELEASE_CANDIDATE_DRAFT_NON_APPLY",
+  "r223m_standard_v0_2_release_candidate_draft_created": true,
+  "r223m_standard_v0_2_published": false,
+  "formal_apply_allowed": false,
+  "direct_publish_allowed": false,
+  "html_files_allowed": false,
+  "teacher_manuscript_modification_allowed": false,
+  "runtime_integration_allowed": false,
+  "source_evidence_stages": [
+    "R224E",
+    "R224F",
+    "R224G",
+    "R224H",
+    "R224I",
+    "R224J",
+    "R224K"
+  ],
+  "candidate_standard_scope": [
+    "unit_lesson_practice_intensity_router",
+    "router_input_field_contract",
+    "router_effect_bridge_semantics",
+    "teacher_default_visibility_rule",
+    "review_ledger_trace_rule",
+    "classroom_event_expansion_density_bridge"
+  ],
+  "locked_router_input_fields": [
+    "unit_phase_role",
+    "lesson_position_in_unit",
+    "practice_intensity",
+    "student_work_time_ratio",
+    "teacher_support_density",
+    "performance_task_link",
+    "stage_evidence_link"
+  ],
+  "router_effect_bridge_fields": [
+    "event_count_bias",
+    "observation_time_bias",
+    "demonstration_time_bias",
+    "micro_practice_count_bias",
+    "formal_creation_time_bias",
+    "teacher_support_density_hint",
+    "checkpoint_density_hint",
+    "exit_condition_hint"
+  ],
+  "router_effect_policy": {
+    "required_schema_object": false,
+    "computed_contract_output": true,
+    "review_ledger_summary": true,
+    "classroom_event_expansion_bridge": true,
+    "teacher_default_visible_raw_fields": false
+  },
+  "boundaries": {
+    "modifies_r97b": false,
+    "adds_formal_route": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "writes_lesson_body": false,
+    "modifies_r222d_component_library": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "formal_apply": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false
+  },
+  "files": [
+    "README_FOR_GPT_REVIEW.md",
+    "PACKAGE_MANIFEST.json",
+    "R224L_release_candidate_draft.md",
+    "R224L_candidate_field_contract.json",
+    "R224L_non_apply_and_non_publication_notice.md",
+    "R224L_evidence_index_R224E_to_R224K.md",
+    "R224L_teacher_default_and_review_ledger_rules.md",
+    "R224L_boundary_check.md",
+    "R224L_validator_result.json",
+    "validate_1013R_R224L_release_candidate_draft_non_apply.py"
+  ]
+}
+

@@ -1,0 +1,45 @@
+{
+  "stage_id": "1013R_R224G_ROUTER_STANDARD_REGRESSION_SUMMARY_OR_HOLD",
+  "package_type": "regression_summary_or_hold",
+  "status": "LOCAL_REVIEW_PACKAGE",
+  "github_uploaded": false,
+  "creates_new_html_page": false,
+  "decision": "PASS_SUMMARY_READY_AND_HOLD_PUBLICATION",
+  "r223m_standard_v0_2_published": false,
+  "required_files": [
+    "README_FOR_GPT_REVIEW.md",
+    "PACKAGE_MANIFEST.json",
+    "R224G_regression_summary_report.md",
+    "R224G_r224e_r224f_coverage_matrix.json",
+    "R224G_publication_hold_rationale.md",
+    "R224G_next_stage_options.md",
+    "R224G_validator_result.json",
+    "validate_1013R_R224G_router_standard_regression_summary_or_hold.py"
+  ],
+  "summary_inputs": {
+    "R224E": "PASS_LOCK_UNIT_ROUTER_STANDARD_CANDIDATE",
+    "R224F": "PASS_CONTINUE_TO_R224G_ROUTER_STANDARD_REGRESSION_SUMMARY_OR_HOLD"
+  },
+  "hold_publication_reasons": [
+    "teacher_default_true_generation_leak_regression_not_done",
+    "classroom_event_expansion_formal_field_convergence_not_done",
+    "ui_r97b_not_ready",
+    "cross_grade_real_unit_pressure_test_not_done",
+    "long_unit_short_unit_stress_test_not_done"
+  ],
+  "boundaries": {
+    "modifies_r97b": false,
+    "adds_route": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "lesson_body_writeback": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "modifies_r222d_component_library": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false,
+    "formal_apply": false
+  }
+}

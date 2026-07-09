@@ -1,0 +1,104 @@
+{
+  "stage_id": "1013R_R224K_ROUTER_STANDARD_PUBLICATION_READINESS_GATE_AND_HOLD",
+  "decision": "PASS_PUBLICATION_READINESS_GATE_AND_HOLD_UNTIL_EXPLICIT_AUTHORIZATION",
+  "publication_readiness_summary": "PASS",
+  "publication": "HOLD",
+  "r223m_standard_v0_2_published": false,
+  "direct_publish_allowed": false,
+  "release_candidate_draft_allowed_next": true,
+  "hold_reason": {
+    "explicit_user_authorization_required": true,
+    "technical_blocker_remaining": false,
+    "formal_ui_blocked": true,
+    "runtime_blocked": true
+  },
+  "evidence_chain": [
+    {
+      "stage": "R224E",
+      "status": "PASS",
+      "decision": "PASS_LOCK_UNIT_ROUTER_STANDARD_CANDIDATE",
+      "evidence": [
+        "router input fields reuse R223P-5",
+        "router_effect is not a required schema object",
+        "teacher default does not show raw router fields",
+        "review ledger retains router trace",
+        "R223M_STANDARD_V0_2 remains NOT_PUBLISHED"
+      ],
+      "publication_impact": "locks candidate baseline without publishing",
+      "risk_remaining": "requires regression evidence before release candidate"
+    },
+    {
+      "stage": "R224F",
+      "status": "PASS",
+      "decision": "PASS_EXTRA_UNIT_REGRESSION",
+      "evidence": [
+        "technique_preparation_unit regression passed",
+        "project_synthesis_unit regression passed",
+        "appreciation_intro_understanding_unit regression passed"
+      ],
+      "publication_impact": "adds unit-structure coverage",
+      "risk_remaining": "requires summary and publication hold discipline"
+    },
+    {
+      "stage": "R224G",
+      "status": "PASS",
+      "decision": "PASS_SUMMARY_READY_AND_HOLD_PUBLICATION",
+      "evidence": [
+        "summary ready",
+        "publication hold",
+        "hold reasons listed",
+        "static evidence chain preserved"
+      ],
+      "publication_impact": "establishes that readiness summary is possible but publication remains held",
+      "risk_remaining": "cross-grade and unit-length pressure tests still needed at that point"
+    },
+    {
+      "stage": "R224H",
+      "status": "PASS",
+      "decision": "PASS_STATIC_LEAKAGE_PRECHECK",
+      "evidence": [
+        "teacher default leakage static precheck passed",
+        "forbidden_token_leak_count = 0",
+        "review ledger trace retained"
+      ],
+      "publication_impact": "confirms teacher default can stay naturalized",
+      "risk_remaining": "field convergence with classroom event expansion still needed at that point"
+    },
+    {
+      "stage": "R224I",
+      "status": "PASS",
+      "decision": "PASS_FIELD_CONVERGENCE_STATIC_PRECHECK",
+      "evidence": [
+        "router_effect to classroom_event_expansion convergence passed",
+        "router_effect remained computed bridge metadata",
+        "required_schema_object_leak = false",
+        "teacher_default_field_leak = false"
+      ],
+      "publication_impact": "confirms bridge semantics without schema inflation",
+      "risk_remaining": "cross-grade and unit-length pressure still needed at that point"
+    },
+    {
+      "stage": "R224J",
+      "status": "PASS",
+      "decision": "PASS_CROSS_GRADE_AND_LENGTH_STATIC_REGRESSION",
+      "evidence": [
+        "cross grade pressure regression passed",
+        "unit length pressure regression passed",
+        "low / middle / high covered",
+        "single_lesson_short_task / two_lesson_progression / multi_lesson_project covered",
+        "teacher_default_field_leak = false",
+        "required_schema_object_leak = false"
+      ],
+      "publication_impact": "fills R224G hold gaps for static coverage",
+      "risk_remaining": "publication still requires explicit user authorization"
+    }
+  ],
+  "gate_answers": {
+    "candidate_has_publication_readiness_summary": true,
+    "publication_should_hold": true,
+    "hold_reason_is_authorization_not_technical_gap": true,
+    "release_candidate_draft_allowed": true,
+    "direct_publish_forbidden": true
+  }
+}
+

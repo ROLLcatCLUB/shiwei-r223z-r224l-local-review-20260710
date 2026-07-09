@@ -1,0 +1,630 @@
+{
+  "stage_id": "1013R_R224L_R223M_STANDARD_V0_2_RELEASE_CANDIDATE_DRAFT_NON_APPLY",
+  "passed": true,
+  "decision": "PASS_LOCAL_RELEASE_CANDIDATE_DRAFT_NON_APPLY",
+  "check_count": 124,
+  "failed_count": 0,
+  "failed": [],
+  "checks": [
+    {
+      "name": "required_file_present::README_FOR_GPT_REVIEW.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::PACKAGE_MANIFEST.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224L_release_candidate_draft.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224L_candidate_field_contract.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224L_non_apply_and_non_publication_notice.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224L_evidence_index_R224E_to_R224K.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224L_teacher_default_and_review_ledger_rules.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224L_boundary_check.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224L_validator_result.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::validate_1013R_R224L_release_candidate_draft_non_apply.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_html_files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_stage_id",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_stage_id",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_decision",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_release_candidate_created",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_release_candidate_draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::v0_2_not_published",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::formal_apply_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::v0_2_not_published",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::formal_apply_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_direct_publish_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_html_files_disallowed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_teacher_manuscript_modification_disallowed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_runtime_integration_disallowed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_r97b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::adds_formal_route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_frontend_backend",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::uses_runtime_provider_model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::changes_prompt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::uses_database",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::writes_lesson_body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_r222d_component_library",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_r223m_n_o_teacher_manuscripts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::formal_apply",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::publishes_v0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::creates_html_page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224G",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224H",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224I",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224J",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_evidence_stage::R224K",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::unit_phase_role",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_router_input_field::unit_phase_role",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::lesson_position_in_unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_router_input_field::lesson_position_in_unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::practice_intensity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_router_input_field::practice_intensity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::student_work_time_ratio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_router_input_field::student_work_time_ratio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::teacher_support_density",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_router_input_field::teacher_support_density",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::performance_task_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_router_input_field::performance_task_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::stage_evidence_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_router_input_field::stage_evidence_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::unit_phase_role::required_in_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::unit_phase_role::teacher_default_hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::lesson_position_in_unit::required_in_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::lesson_position_in_unit::teacher_default_hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::practice_intensity::required_in_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::practice_intensity::teacher_default_hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::student_work_time_ratio::required_in_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::student_work_time_ratio::teacher_default_hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::teacher_support_density::required_in_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::teacher_support_density::teacher_default_hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::performance_task_link::required_in_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::performance_task_link::teacher_default_hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::stage_evidence_link::required_in_candidate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::stage_evidence_link::teacher_default_hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::event_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge_field::event_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::observation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge_field::observation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::demonstration_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge_field::demonstration_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::micro_practice_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge_field::micro_practice_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::formal_creation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge_field::formal_creation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::teacher_support_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge_field::teacher_support_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::checkpoint_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge_field::checkpoint_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::exit_condition_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge_field::exit_condition_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge::event_count_bias::not_required_schema_object",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge::observation_time_bias::not_required_schema_object",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge::demonstration_time_bias::not_required_schema_object",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge::micro_practice_count_bias::not_required_schema_object",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge::formal_creation_time_bias::not_required_schema_object",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge::teacher_support_density_hint::not_required_schema_object",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge::checkpoint_density_hint::not_required_schema_object",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract_bridge::exit_condition_hint::not_required_schema_object",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::router_effect_not_required_schema_object",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::router_effect_computed_output",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::review_ledger_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::classroom_event_expansion_bridge",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest::teacher_raw_fields_hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::router_effect_not_required_schema_object",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::router_effect_computed_output",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::review_ledger_summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::classroom_event_expansion_bridge",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "contract::teacher_raw_fields_hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "visibility_teacher_default_raw_hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "visibility_review_ledger_raw_visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "visibility_naturalized_language_required",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "publication_contract_v0_2_not_published",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "publication_release_candidate_created",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "publication_direct_publish_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "publication_explicit_authorization_required",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::R223M_STANDARD_V0_2 = NOT_PUBLISHED",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::formal_apply_allowed = false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::No HTML",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::No R97B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::No runtime/provider/model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::No formal apply",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_phrase_present::No v0.2 publication",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::R223M_STANDARD_V0_2 = PUBLISHED",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::formal_apply_allowed = true",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::direct_publish_allowed = true",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::lesson body writeback allowed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::runtime integration allowed",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "stage_id": "1013R_R224H_TEACHER_DEFAULT_LEAKAGE_REGRESSION_STATIC_PRECHECK",
+  "scan_scope": "teacher_facing_naturalized_text_samples_only",
+  "forbidden_tokens": [
+    "unit_phase_role",
+    "lesson_position_in_unit",
+    "practice_intensity",
+    "student_work_time_ratio",
+    "teacher_support_density",
+    "performance_task_link",
+    "stage_evidence_link",
+    "router_effect",
+    "event_count_bias",
+    "micro_practice_count",
+    "checkpoint",
+    "exit_condition",
+    "formal_creation_time"
+  ],
+  "allowed_paraphrase_examples": [
+    "本课主要保护学生动手创作时间",
+    "本课以观察、比较、命名和表达为主",
+    "教师需要重点巡视材料选择与方法使用",
+    "本课不急于完成完整作品，重点放在方法尝试和安全操作"
+  ],
+  "samples": [
+    {
+      "sample_id": "F_cut_paper",
+      "sample_name": "红红的剪纸",
+      "unit_structure_type": "technique_preparation_unit",
+      "forbidden_token_hits": [],
+      "allowed_paraphrase_check": true,
+      "leak_pass": true
+    },
+    {
+      "sample_id": "G_fable_myth",
+      "sample_name": "寓言与神话",
+      "unit_structure_type": "project_synthesis_unit",
+      "forbidden_token_hits": [],
+      "allowed_paraphrase_check": true,
+      "leak_pass": true
+    },
+    {
+      "sample_id": "H_art_family",
+      "sample_name": "美术大家庭",
+      "unit_structure_type": "appreciation_intro_understanding_unit",
+      "forbidden_token_hits": [],
+      "allowed_paraphrase_check": true,
+      "leak_pass": true
+    }
+  ],
+  "summary": {
+    "sample_count": 3,
+    "forbidden_token_leak_count": 0,
+    "all_samples_pass": true,
+    "decision": "PASS_STATIC_LEAKAGE_PRECHECK"
+  }
+}

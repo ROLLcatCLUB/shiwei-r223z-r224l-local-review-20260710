@@ -1,0 +1,94 @@
+{
+  "schema_id": "R224A_router_schema_v0_1",
+  "stage_id": "1013R_R224A_UNIT_LEVEL_PRACTICE_INTENSITY_ROUTER_PLANNING",
+  "status": "candidate_planning_schema_only",
+  "description": "Planning schema for routing lesson classroom event expansion density by unit position, phase role, practice intensity, student work ratio, teacher support density, performance task link, and stage evidence link.",
+  "required_fields": [
+    "sample_id",
+    "lesson_title",
+    "unit_title",
+    "lesson_position_in_unit",
+    "unit_phase_role",
+    "practice_intensity",
+    "student_work_time_ratio",
+    "teacher_support_density",
+    "performance_task_link",
+    "stage_evidence_link",
+    "router_effect"
+  ],
+  "enums": {
+    "lesson_position_in_unit": [
+      "early",
+      "middle",
+      "late",
+      "final"
+    ],
+    "unit_phase_role": [
+      "intro_understanding",
+      "technique_preparation",
+      "practice_creation",
+      "showcase_evaluation",
+      "transfer_closure",
+      "project_synthesis"
+    ],
+    "practice_intensity": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "student_work_time_ratio": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "teacher_support_density": [
+      "light",
+      "normal",
+      "heavy"
+    ]
+  },
+  "performance_task_link": {
+    "required_fields": [
+      "task_name",
+      "task_contribution",
+      "teacher_confirmation_required"
+    ]
+  },
+  "stage_evidence_link": {
+    "required_fields": [
+      "evidence_name",
+      "evidence_type",
+      "collection_timing",
+      "assessment_use"
+    ]
+  },
+  "router_effect": {
+    "required_fields": [
+      "explanation_density",
+      "demonstration_density",
+      "micro_practice_count",
+      "formal_creation_time",
+      "teacher_circulation_focus",
+      "showcase_evaluation_intensity",
+      "learning_sheet_fields",
+      "evidence_collection_mode"
+    ],
+    "density_values": [
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "boundaries": {
+    "planning_only": true,
+    "creates_new_teacher_manuscript": false,
+    "modifies_r223m_n_o": false,
+    "publishes_v0_2": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "creates_html_page": false,
+    "formal_apply": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "stage_id": "1013R_R223Z_LINE_CLOSURE_AND_NEXT_STAGE_PLANNING",
+  "package_type": "stage_closure_and_next_stage_planning",
+  "status": "LOCAL_REVIEW_PACKAGE",
+  "github_uploaded": false,
+  "creates_new_html_page": false,
+  "decision_target": "PASS_R223Z_STAGE_CLOSURE_AND_NEXT_PLANNING",
+  "required_files": [
+    "R223Z_stage_closure_report.md",
+    "R223Z_source_of_truth_index.md",
+    "R223Z_deprecated_artifacts_and_do_not_use.md",
+    "R223Z_line_routing_policy.md",
+    "R223Z_v0_2_candidate_usage_policy.md",
+    "R223Z_html_artifact_policy.md",
+    "R223Z_next_stage_options.md",
+    "R223Z_recommended_next_step.md",
+    "R223Z_validator_result.json",
+    "PACKAGE_MANIFEST.json",
+    "README_FOR_GPT_REVIEW.md",
+    "validate_1013R_R223Z_line_closure_and_next_stage_planning.py"
+  ],
+  "canonical_teacher_manuscripts": {
+    "M_stationery": "R223M_P4_P1_teacher_readable_process_v6.html",
+    "N_paper_print": "R223N_P3_P1_teacher_manuscript_draft_v5.html",
+    "O_color_collision": "R223O_P1_teacher_manuscript_draft_v2.html"
+  },
+  "locked_status": {
+    "R223M_P5": "GOLDEN_CLASSROOM_EVENT_EXPANSION_STANDARD_V0.1_LOCKED_AS_CANDIDATE",
+    "R223N": "PAPER_PRINT_CROSS_SAMPLE_VALIDATION_PASS",
+    "R223O_P1": "COLOR_MANUSCRIPT_STRUCTURE_RECOVERY_PASS",
+    "R223P_5": "PASS_LOCK_R223M_STANDARD_V0_2_CANDIDATE",
+    "R223Q": "PASS_TRUE_GENERATION_REGRESSION_GATE",
+    "R223R": "PASS_V0_2_CANDIDATE_PILOT_ROUTE_PLANNING",
+    "R223S": "PASS_OPT_IN_SANDBOX_ROUTE_SPEC",
+    "R223T": "PASS_FIXTURE_ONLY_SANDBOX_PREVIEW",
+    "R223U": "PASS_SANDBOX_TEACHER_REVIEW",
+    "R223V": "PASS_SANDBOX_REDUCTION_OR_PILOT_HOLD",
+    "R223W": "PASS_REVIEW_ONLY_PILOT_GATE_SPEC",
+    "R223X_P1": "PASS_NON_VISUAL_REVIEW_GATE_PACKAGE",
+    "R223Y": "CANCELLED_OR_RESCOPED"
+  },
+  "boundaries": {
+    "modifies_r97b": false,
+    "adds_route": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "lesson_body_writeback": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "modifies_r222d_component_library": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false,
+    "formal_apply": false
+  },
+  "recommended_next_step": "R224A_UNIT_LEVEL_PRACTICE_INTENSITY_ROUTER_PLANNING"
+}

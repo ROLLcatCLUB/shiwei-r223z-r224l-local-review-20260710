@@ -1,0 +1,153 @@
+{
+  "stage_id": "1013R_R224J_CROSS_GRADE_AND_UNIT_LENGTH_PRESSURE_STATIC_REGRESSION",
+  "matrix_type": "cross_grade_pressure",
+  "decision": "PASS_CROSS_GRADE_AND_LENGTH_STATIC_REGRESSION",
+  "r223m_standard_v0_2_published": false,
+  "router_effect_policy": {
+    "required_schema_object": false,
+    "computed_contract_output": true,
+    "review_ledger_summary": true,
+    "classroom_event_expansion_bridge": true,
+    "teacher_default_visible_raw_fields": false
+  },
+  "required_router_input_fields": [
+    "unit_phase_role",
+    "lesson_position_in_unit",
+    "practice_intensity",
+    "student_work_time_ratio",
+    "teacher_support_density",
+    "performance_task_link",
+    "stage_evidence_link"
+  ],
+  "required_router_effect_bridge_fields": [
+    "event_count_bias",
+    "observation_time_bias",
+    "demonstration_time_bias",
+    "micro_practice_count_bias",
+    "formal_creation_time_bias",
+    "teacher_support_density_hint",
+    "checkpoint_density_hint",
+    "exit_condition_hint"
+  ],
+  "samples": [
+    {
+      "sample_id": "R224J_low_grade_observation_game_material",
+      "lesson_title": "低年级观察游戏与简单材料体验",
+      "grade_band": "low",
+      "unit_length_type": "single_lesson_short_task",
+      "unit_structure_type": "appreciation_intro_understanding_unit",
+      "router_input_values": {
+        "unit_phase_role": "intro_understanding",
+        "lesson_position_in_unit": "early",
+        "practice_intensity": "low",
+        "student_work_time_ratio": "low",
+        "teacher_support_density": "normal",
+        "performance_task_link": "为后续材料体验和生活观察建立兴趣入口与初步表达词汇。",
+        "stage_evidence_link": "观察发现记录、口头表达、一张简单材料体验小样。"
+      },
+      "computed_router_effect_summary": {
+        "event_count_bias": "low_to_medium",
+        "observation_time_bias": "high",
+        "demonstration_time_bias": "low",
+        "micro_practice_count_bias": "low",
+        "formal_creation_time_bias": "low",
+        "teacher_support_density_hint": "normal_focus_on_attention_and_language_support",
+        "checkpoint_density_hint": "light_checkpoints_at_find_name_try",
+        "exit_condition_hint": "students can point to one visible feature and say one simple reason"
+      },
+      "affected_classroom_event_expansion_fields": {
+        "event_planning": "减少复杂创作事件，增加观察、游戏化发现和一句话表达。",
+        "student_response_prediction": "预判学生只说好看、注意力跳跃、无法稳定描述材料或图像特征。",
+        "teacher_scaffolding_moves": "采用指一指、比一比、跟我说一句、同伴补充等低门槛支架。",
+        "evidence_trigger": "保留观察记录、口头说明或一张轻量体验小样。"
+      },
+      "teacher_facing_naturalized_implication": "低年级这类课先把眼睛和语言打开，不急着做完整作品。教师要让学生多看、多指、多说一个理由，用轻量小样留下证据。",
+      "review_ledger_retained_trace": true,
+      "required_schema_object_leak": false,
+      "teacher_default_field_leak": false
+    },
+    {
+      "sample_id": "R224J_middle_grade_technique_small_project",
+      "lesson_title": "中年级技法准备与小项目创作",
+      "grade_band": "middle",
+      "unit_length_type": "two_lesson_progression",
+      "unit_structure_type": "technique_preparation_unit",
+      "router_input_values": {
+        "unit_phase_role": "technique_preparation",
+        "lesson_position_in_unit": "middle",
+        "practice_intensity": "medium",
+        "student_work_time_ratio": "medium",
+        "teacher_support_density": "heavy",
+        "performance_task_link": "为后续小项目作品提供材料选择、技法试验和过程证据。",
+        "stage_evidence_link": "技法试验记录、小样比较、半成品调整说明。"
+      },
+      "computed_router_effect_summary": {
+        "event_count_bias": "medium",
+        "observation_time_bias": "medium",
+        "demonstration_time_bias": "high",
+        "micro_practice_count_bias": "high",
+        "formal_creation_time_bias": "medium",
+        "teacher_support_density_hint": "heavy_focus_on_method_step_and_error_repair",
+        "checkpoint_density_hint": "medium_high_checkpoints_after_demo_trial_adjust",
+        "exit_condition_hint": "students can complete one method trial and use evidence to choose a next step"
+      },
+      "affected_classroom_event_expansion_fields": {
+        "event_planning": "平衡观察、示范、小练和小项目推进，避免直接进入完整创作。",
+        "student_response_prediction": "预判学生方法步骤遗漏、材料选择不当、只追求效果不记录过程。",
+        "teacher_scaffolding_moves": "采用分步示范、错误修补、试验对照、学习单记录和巡视提示。",
+        "evidence_trigger": "保留方法小样、比较记录和调整依据。"
+      },
+      "teacher_facing_naturalized_implication": "中年级技法课要给学生足够试错机会。教师应把示范和小练分开，巡视时重点看方法是否被学生真正用起来，而不是只看成品好不好看。",
+      "review_ledger_retained_trace": true,
+      "required_schema_object_leak": false,
+      "teacher_default_field_leak": false
+    },
+    {
+      "sample_id": "R224J_high_grade_design_integrated_expression",
+      "lesson_title": "高年级设计应用与综合表达",
+      "grade_band": "high",
+      "unit_length_type": "multi_lesson_project",
+      "unit_structure_type": "project_synthesis_unit",
+      "router_input_values": {
+        "unit_phase_role": "project_synthesis",
+        "lesson_position_in_unit": "late",
+        "practice_intensity": "high",
+        "student_work_time_ratio": "high",
+        "teacher_support_density": "heavy",
+        "performance_task_link": "把前期调研、设计理由、材料方法和表达成果综合成项目作品。",
+        "stage_evidence_link": "问题定义、方案草图、过程调整记录、最终作品说明与展示评价。"
+      },
+      "computed_router_effect_summary": {
+        "event_count_bias": "high",
+        "observation_time_bias": "medium",
+        "demonstration_time_bias": "medium",
+        "micro_practice_count_bias": "medium",
+        "formal_creation_time_bias": "high",
+        "teacher_support_density_hint": "heavy_focus_on_design_reasoning_and_project_checkpoint",
+        "checkpoint_density_hint": "dense_checkpoints_at_problem_plan_process_output_reflection",
+        "exit_condition_hint": "students can connect design choice to user need or expression purpose and present evidence"
+      },
+      "affected_classroom_event_expansion_fields": {
+        "event_planning": "增加问题定义、方案推敲、过程检查、成果表达和反思评价事件。",
+        "student_response_prediction": "预判学生方案过散、只重装饰、证据链断裂、表达理由空泛。",
+        "teacher_scaffolding_moves": "采用问题缩小、方案对比、阶段检查、同伴反馈和展示句式。",
+        "evidence_trigger": "保留设计理由、草图迭代、过程照片和作品说明。"
+      },
+      "teacher_facing_naturalized_implication": "高年级项目课要把时间还给学生的方案推进和证据表达。教师巡视不只是纠正技法，还要追问选择理由、使用对象、表达目的和阶段证据。",
+      "review_ledger_retained_trace": true,
+      "required_schema_object_leak": false,
+      "teacher_default_field_leak": false
+    }
+  ],
+  "global_checks": {
+    "all_samples_have_grade_band": true,
+    "all_samples_have_unit_length_type": true,
+    "all_samples_have_router_inputs": true,
+    "all_samples_have_router_effect_bridge_fields": true,
+    "all_samples_have_teacher_naturalized_implication": true,
+    "all_samples_have_review_ledger_trace": true,
+    "any_required_schema_object_leak": false,
+    "any_teacher_default_field_leak": false
+  }
+}
+

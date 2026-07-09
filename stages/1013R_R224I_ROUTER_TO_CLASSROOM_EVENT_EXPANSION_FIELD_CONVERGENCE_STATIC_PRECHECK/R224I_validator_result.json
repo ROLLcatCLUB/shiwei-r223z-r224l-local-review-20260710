@@ -1,0 +1,675 @@
+{
+  "stage_id": "1013R_R224I_ROUTER_TO_CLASSROOM_EVENT_EXPANSION_FIELD_CONVERGENCE_STATIC_PRECHECK",
+  "passed": true,
+  "decision": "PASS_FIELD_CONVERGENCE_STATIC_PRECHECK",
+  "check_count": 133,
+  "failed_count": 0,
+  "failed": [],
+  "checks": [
+    {
+      "name": "required_file_present::README_FOR_GPT_REVIEW.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::PACKAGE_MANIFEST.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224I_field_convergence_static_precheck_report.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224I_router_to_event_expansion_mapping_matrix.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224I_required_schema_object_leak_check.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224I_teacher_default_visibility_check.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224I_review_ledger_trace_check.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224I_publication_status_notice.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::R224I_validator_result.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_file_present::validate_1013R_R224I_router_to_classroom_event_expansion_field_convergence_static_precheck.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no_html_files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_stage_id",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_stage_id",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "decision_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_decision_pass",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "r223m_standard_v0_2_not_published",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_v0_2_not_published",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "router_effect_not_required_schema_object_matrix",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "router_effect_not_required_schema_object_manifest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_r97b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::adds_formal_route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_frontend_backend",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::uses_runtime_provider_model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::changes_prompt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::uses_database",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::writes_lesson_body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_r222d_component_library",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::modifies_r223m_n_o_teacher_manuscripts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::formal_apply",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "boundary_false::publishes_v0_2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::unit_phase_role",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_router_input_field::unit_phase_role",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::lesson_position_in_unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_router_input_field::lesson_position_in_unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::practice_intensity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_router_input_field::practice_intensity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::student_work_time_ratio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_router_input_field::student_work_time_ratio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::teacher_support_density",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_router_input_field::teacher_support_density",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::performance_task_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_router_input_field::performance_task_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_router_input_field::stage_evidence_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_router_input_field::stage_evidence_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::event_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_bridge_target::event_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::observation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_bridge_target::observation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::demonstration_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_bridge_target::demonstration_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::micro_practice_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_bridge_target::micro_practice_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::formal_creation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_bridge_target::formal_creation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::teacher_support_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_bridge_target::teacher_support_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::checkpoint_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_bridge_target::checkpoint_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_bridge_field::exit_condition_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "matrix_bridge_target::exit_condition_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sample_count_is_three",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_sample_type::appreciation_intro_understanding_unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_sample_type::technique_preparation_unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "required_sample_type::project_synthesis_unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::router_input::unit_phase_role",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::router_input::lesson_position_in_unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::router_input::practice_intensity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::router_input::student_work_time_ratio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::router_input::teacher_support_density",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::router_input::performance_task_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::router_input::stage_evidence_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::bridge_field::event_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::bridge_field::observation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::bridge_field::demonstration_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::bridge_field::micro_practice_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::bridge_field::formal_creation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::bridge_field::teacher_support_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::bridge_field::checkpoint_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::bridge_field::exit_condition_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::affected_event_fields_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::teacher_implication_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::review_ledger_trace_retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::required_schema_object_leak_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_cut_paper_honghong_de_jianzhi::teacher_default_field_leak_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::router_input::unit_phase_role",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::router_input::lesson_position_in_unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::router_input::practice_intensity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::router_input::student_work_time_ratio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::router_input::teacher_support_density",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::router_input::performance_task_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::router_input::stage_evidence_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::bridge_field::event_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::bridge_field::observation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::bridge_field::demonstration_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::bridge_field::micro_practice_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::bridge_field::formal_creation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::bridge_field::teacher_support_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::bridge_field::checkpoint_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::bridge_field::exit_condition_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::affected_event_fields_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::teacher_implication_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::review_ledger_trace_retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::required_schema_object_leak_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_fable_myth_yuyan_yu_shenhua::teacher_default_field_leak_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::router_input::unit_phase_role",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::router_input::lesson_position_in_unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::router_input::practice_intensity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::router_input::student_work_time_ratio",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::router_input::teacher_support_density",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::router_input::performance_task_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::router_input::stage_evidence_link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::bridge_field::event_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::bridge_field::observation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::bridge_field::demonstration_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::bridge_field::micro_practice_count_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::bridge_field::formal_creation_time_bias",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::bridge_field::teacher_support_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::bridge_field::checkpoint_density_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::bridge_field::exit_condition_hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::affected_event_fields_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::teacher_implication_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::review_ledger_trace_retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::required_schema_object_leak_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "R224I_art_family_meishu_dajiating::teacher_default_field_leak_false",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "global_true::all_samples_have_router_inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "global_true::all_samples_have_router_effect_bridge_fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "global_true::all_samples_have_teacher_naturalized_implication",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "global_true::all_samples_have_review_ledger_trace",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "global_false::any_required_schema_object_leak",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "global_false::any_teacher_default_field_leak",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::R223M_STANDARD_V0_2 = PUBLISHED",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::formal_apply_allowed = true",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "blocked_phrase_absent::lesson_body_writeback = true",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "stage_id": "1013R_R224L_R223M_STANDARD_V0_2_RELEASE_CANDIDATE_DRAFT_NON_APPLY",
+  "standard_candidate": "R223M_STANDARD_V0_2_RELEASE_CANDIDATE_DRAFT",
+  "published": false,
+  "formal_apply_allowed": false,
+  "router_standard_name": "unit_lesson_practice_intensity_router",
+  "locked_router_input_fields": [
+    {
+      "field": "unit_phase_role",
+      "required_in_candidate": true,
+      "teacher_default_visible": false,
+      "purpose": "Identify the lesson's responsibility inside the unit."
+    },
+    {
+      "field": "lesson_position_in_unit",
+      "required_in_candidate": true,
+      "teacher_default_visible": false,
+      "purpose": "Identify whether the lesson is early, middle, late, or final."
+    },
+    {
+      "field": "practice_intensity",
+      "required_in_candidate": true,
+      "teacher_default_visible": false,
+      "purpose": "Decide whether student practice density should be low, medium, or high."
+    },
+    {
+      "field": "student_work_time_ratio",
+      "required_in_candidate": true,
+      "teacher_default_visible": false,
+      "purpose": "Estimate how much lesson time should be reserved for student work."
+    },
+    {
+      "field": "teacher_support_density",
+      "required_in_candidate": true,
+      "teacher_default_visible": false,
+      "purpose": "Estimate how much teacher scaffolding, rescue, and checkpoint support is needed."
+    },
+    {
+      "field": "performance_task_link",
+      "required_in_candidate": true,
+      "teacher_default_visible": false,
+      "purpose": "Connect the lesson to the unit performance task."
+    },
+    {
+      "field": "stage_evidence_link",
+      "required_in_candidate": true,
+      "teacher_default_visible": false,
+      "purpose": "Identify what stage evidence should remain after the lesson."
+    }
+  ],
+  "router_effect_policy": {
+    "required_schema_object": false,
+    "computed_contract_output": true,
+    "review_ledger_summary": true,
+    "classroom_event_expansion_bridge": true,
+    "teacher_default_visible_raw_fields": false
+  },
+  "router_effect_bridge_fields": [
+    {
+      "field": "event_count_bias",
+      "required_schema_object_field": false,
+      "purpose": "Influence the number of classroom events generated."
+    },
+    {
+      "field": "observation_time_bias",
+      "required_schema_object_field": false,
+      "purpose": "Influence observation and appreciation time."
+    },
+    {
+      "field": "demonstration_time_bias",
+      "required_schema_object_field": false,
+      "purpose": "Influence demonstration time."
+    },
+    {
+      "field": "micro_practice_count_bias",
+      "required_schema_object_field": false,
+      "purpose": "Influence number of micro-practice events."
+    },
+    {
+      "field": "formal_creation_time_bias",
+      "required_schema_object_field": false,
+      "purpose": "Influence formal creation or project work time."
+    },
+    {
+      "field": "teacher_support_density_hint",
+      "required_schema_object_field": false,
+      "purpose": "Influence teacher support, rescue, and scaffolding density."
+    },
+    {
+      "field": "checkpoint_density_hint",
+      "required_schema_object_field": false,
+      "purpose": "Influence checkpoint frequency."
+    },
+    {
+      "field": "exit_condition_hint",
+      "required_schema_object_field": false,
+      "purpose": "Influence minimal exit condition and stage evidence."
+    }
+  ],
+  "visibility_rules": {
+    "teacher_default_raw_router_fields_visible": false,
+    "review_ledger_raw_router_fields_visible": true,
+    "teacher_default_requires_naturalized_language": true
+  },
+  "publication_rules": {
+    "r223m_standard_v0_2_published": false,
+    "release_candidate_draft_created": true,
+    "direct_publish_allowed": false,
+    "explicit_authorization_required_for_publication": true
+  }
+}
+

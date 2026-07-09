@@ -1,0 +1,147 @@
+{
+  "stage_id": "1013R_R224I_ROUTER_TO_CLASSROOM_EVENT_EXPANSION_FIELD_CONVERGENCE_STATIC_PRECHECK",
+  "decision": "PASS_FIELD_CONVERGENCE_STATIC_PRECHECK",
+  "r223m_standard_v0_2_published": false,
+  "router_effect_policy": {
+    "required_schema_object": false,
+    "computed_contract_output": true,
+    "review_ledger_summary": true,
+    "classroom_event_expansion_bridge": true,
+    "teacher_default_visible_raw_fields": false
+  },
+  "router_input_field_policy": {
+    "reuse_r223p_5_candidate_fields_only": true,
+    "fields": [
+      "unit_phase_role",
+      "lesson_position_in_unit",
+      "practice_intensity",
+      "student_work_time_ratio",
+      "teacher_support_density",
+      "performance_task_link",
+      "stage_evidence_link"
+    ]
+  },
+  "field_convergence_targets": [
+    "event_count_bias",
+    "observation_time_bias",
+    "demonstration_time_bias",
+    "micro_practice_count_bias",
+    "formal_creation_time_bias",
+    "teacher_support_density_hint",
+    "checkpoint_density_hint",
+    "exit_condition_hint"
+  ],
+  "samples": [
+    {
+      "sample_id": "R224I_cut_paper_honghong_de_jianzhi",
+      "lesson_title": "红红的剪纸",
+      "unit_structure_type": "technique_preparation_unit",
+      "router_input_values": {
+        "unit_phase_role": "technique_preparation",
+        "lesson_position_in_unit": "middle",
+        "practice_intensity": "medium",
+        "student_work_time_ratio": "medium",
+        "teacher_support_density": "heavy",
+        "performance_task_link": "为后续剪纸作品完成提供折、剪、展开与安全操作基础。",
+        "stage_evidence_link": "折剪尝试小样、剪纸纹样记录、工具安全与剪法掌握证据。"
+      },
+      "computed_router_effect_summary": {
+        "event_count_bias": "medium_plus",
+        "observation_time_bias": "medium",
+        "demonstration_time_bias": "high",
+        "micro_practice_count_bias": "high",
+        "formal_creation_time_bias": "medium",
+        "teacher_support_density_hint": "heavy_focus_on_cutting_safety_and_step_rescue",
+        "checkpoint_density_hint": "frequent_small_checkpoints_after_fold_cut_unfold",
+        "exit_condition_hint": "students can explain one fold-cut relationship and complete one safe trial sample"
+      },
+      "affected_classroom_event_expansion_fields": {
+        "event_planning": "增加示范、半成品观察、低风险小练和安全检查事件。",
+        "student_response_prediction": "预判学生剪断、纹样不连、折线理解错误、工具使用不稳等偏差。",
+        "teacher_scaffolding_moves": "采用慢示范、停顿检查、错误修补、同伴互看和替代剪法。",
+        "evidence_trigger": "保留折剪小样、纹样尝试、操作安全观察和一句方法说明。"
+      },
+      "teacher_facing_naturalized_implication": "这节课不急着追求完整大作品，先让学生看懂折与剪怎样共同生成纹样。教师需要多做慢示范和即时巡视，帮助学生在小样中发现剪纸的连接关系。",
+      "review_ledger_retained_trace": true,
+      "required_schema_object_leak": false,
+      "teacher_default_field_leak": false
+    },
+    {
+      "sample_id": "R224I_fable_myth_yuyan_yu_shenhua",
+      "lesson_title": "寓言与神话",
+      "unit_structure_type": "project_synthesis_unit",
+      "router_input_values": {
+        "unit_phase_role": "project_synthesis",
+        "lesson_position_in_unit": "late",
+        "practice_intensity": "high",
+        "student_work_time_ratio": "high",
+        "teacher_support_density": "heavy",
+        "performance_task_link": "将故事理解、人物形象、场景组织和画面表达综合成叙事作品。",
+        "stage_evidence_link": "故事情节选择、角色造型草图、画面推进过程、作品说明与展示表达。"
+      },
+      "computed_router_effect_summary": {
+        "event_count_bias": "high",
+        "observation_time_bias": "medium",
+        "demonstration_time_bias": "medium",
+        "micro_practice_count_bias": "medium",
+        "formal_creation_time_bias": "high",
+        "teacher_support_density_hint": "heavy_focus_on_story_image_coherence_and_composition_rescue",
+        "checkpoint_density_hint": "dense_checkpoints_at_story_choice_character_scene_and_expression",
+        "exit_condition_hint": "students can show a key story moment with character action and explain the image choice"
+      },
+      "affected_classroom_event_expansion_fields": {
+        "event_planning": "强化故事选择、角色动作、场景组织、创作推进和展示收束事件。",
+        "student_response_prediction": "预判学生复述故事多、画面重点散、人物动作弱、装饰多于叙事等偏差。",
+        "teacher_scaffolding_moves": "采用关键情节缩小、动作定格、构图对比、草图检查和作品说明句式。",
+        "evidence_trigger": "保留故事选择记录、角色草图、创作中段检查和作品说明。"
+      },
+      "teacher_facing_naturalized_implication": "这节课的重点不是讲完整故事，而是把一个最能说明寓意或神话想象的瞬间画出来。教师要在学生创作过程中多看画面是否有主次、人物动作是否能说话、故事意思是否能被看见。",
+      "review_ledger_retained_trace": true,
+      "required_schema_object_leak": false,
+      "teacher_default_field_leak": false
+    },
+    {
+      "sample_id": "R224I_art_family_meishu_dajiating",
+      "lesson_title": "美术大家庭",
+      "unit_structure_type": "appreciation_intro_understanding_unit",
+      "router_input_values": {
+        "unit_phase_role": "intro_understanding",
+        "lesson_position_in_unit": "early",
+        "practice_intensity": "low",
+        "student_work_time_ratio": "low",
+        "teacher_support_density": "normal",
+        "performance_task_link": "为后续美术门类观察、材料体验和生活连接建立初步分类与表达基础。",
+        "stage_evidence_link": "生活中的美术发现记录、门类关系图、口头介绍或小组分享。"
+      },
+      "computed_router_effect_summary": {
+        "event_count_bias": "medium",
+        "observation_time_bias": "high",
+        "demonstration_time_bias": "low",
+        "micro_practice_count_bias": "low",
+        "formal_creation_time_bias": "low",
+        "teacher_support_density_hint": "normal_focus_on_observation_classification_and_language_support",
+        "checkpoint_density_hint": "light_checkpoints_at_find_classify_explain",
+        "exit_condition_hint": "students can identify one art form in life and explain what it changes or helps people notice"
+      },
+      "affected_classroom_event_expansion_fields": {
+        "event_planning": "增加生活观察、图片比较、门类归纳和介绍表达事件，减少重创作事件。",
+        "student_response_prediction": "预判学生只背门类名称、只说好看、无法连接生活用途等偏差。",
+        "teacher_scaffolding_moves": "采用生活图例追问、关系图支架、同伴补充和一句话介绍模板。",
+        "evidence_trigger": "保留生活美术发现记录、门类归类理由和关系图。"
+      },
+      "teacher_facing_naturalized_implication": "这节课更像打开视野的美术入门课，不宜安排重创作。教师要带学生从校园和生活里发现美术，再用简单关系图说清它属于哪一类、给生活带来什么变化。",
+      "review_ledger_retained_trace": true,
+      "required_schema_object_leak": false,
+      "teacher_default_field_leak": false
+    }
+  ],
+  "global_checks": {
+    "all_samples_have_router_inputs": true,
+    "all_samples_have_router_effect_bridge_fields": true,
+    "all_samples_have_teacher_naturalized_implication": true,
+    "all_samples_have_review_ledger_trace": true,
+    "any_required_schema_object_leak": false,
+    "any_teacher_default_field_leak": false
+  }
+}
+

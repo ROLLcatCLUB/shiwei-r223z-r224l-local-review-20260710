@@ -1,0 +1,63 @@
+{
+  "stage_id": "1013R_R224A_UNIT_LEVEL_PRACTICE_INTENSITY_ROUTER_PLANNING",
+  "package_type": "planning_contract_review",
+  "status": "LOCAL_REVIEW_PACKAGE",
+  "github_uploaded": false,
+  "creates_new_html_page": false,
+  "required_files": [
+    "R224A_unit_lesson_practice_intensity_router_contract.md",
+    "R224A_router_schema_v0_1.json",
+    "R224A_unit_phase_role_registry.md",
+    "R224A_practice_intensity_decision_rules.md",
+    "R224A_student_work_time_ratio_rules.md",
+    "R224A_teacher_support_density_rules.md",
+    "R224A_performance_task_and_stage_evidence_link_rules.md",
+    "R224A_router_effect_on_classroom_event_expansion.md",
+    "R224A_three_sample_router_fixture.md",
+    "R224A_risk_and_misuse_notes.md",
+    "R224A_report.md",
+    "validate_1013R_R224A_unit_level_practice_intensity_router_planning.py",
+    "R224A_validator_result.json",
+    "PACKAGE_MANIFEST.json",
+    "README_FOR_GPT_REVIEW.md"
+  ],
+  "sample_fixture_expectations": {
+    "M_stationery": {
+      "lesson_position_in_unit": "late",
+      "unit_phase_role": "practice_creation",
+      "practice_intensity": "high",
+      "student_work_time_ratio": "high",
+      "teacher_support_density": "heavy"
+    },
+    "N_paper_print": {
+      "lesson_position_in_unit": "middle",
+      "unit_phase_role": "technique_preparation",
+      "practice_intensity": "medium",
+      "student_work_time_ratio": "medium",
+      "teacher_support_density": "normal"
+    },
+    "O_color_collision": {
+      "lesson_position_in_unit": "early",
+      "unit_phase_role": "intro_understanding",
+      "practice_intensity": "medium",
+      "student_work_time_ratio": "medium",
+      "teacher_support_density": "normal"
+    }
+  },
+  "boundaries": {
+    "modifies_r97b": false,
+    "adds_route": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "lesson_body_writeback": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "modifies_r222d_component_library": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false,
+    "formal_apply": false
+  },
+  "decision_target": "PASS_CONTINUE_TO_R224B_ROUTER_FIXTURE_AND_REGRESSION"
+}

@@ -1,0 +1,68 @@
+{
+  "stage_id": "1013R_R224D_ROUTER_CONTRACT_REGRESSION_OR_SCHEMA_BINDING",
+  "package_type": "router_contract_schema_binding_check",
+  "status": "LOCAL_REVIEW_PACKAGE",
+  "github_uploaded": false,
+  "creates_new_html_page": false,
+  "required_files": [
+    "R224D_router_contract_schema_binding_check.md",
+    "R224D_field_overlap_with_R223P5_v0_2_candidate.md",
+    "R224D_router_effect_object_policy.md",
+    "R224D_teacher_default_visibility_guard.md",
+    "R224D_review_ledger_router_trace_policy.md",
+    "R224D_three_sample_binding_regression.md",
+    "R224D_schema_delta_recommendation.md",
+    "R224D_risk_and_conflict_notes.md",
+    "R224D_decision_report.md",
+    "validate_1013R_R224D_router_contract_regression_or_schema_binding.py",
+    "R224D_validator_result.json",
+    "PACKAGE_MANIFEST.json",
+    "README_FOR_GPT_REVIEW.md"
+  ],
+  "binding_decision": {
+    "r224c_compatible_with_r223p5": true,
+    "router_input_fields_already_covered": true,
+    "router_effect_required_object": false,
+    "router_effect_policy": "computed_contract_output_or_ledger_summary",
+    "v0_2_published": false
+  },
+  "existing_r223p5_fields_reused": [
+    "unit_phase_role",
+    "lesson_position_in_unit",
+    "practice_intensity",
+    "student_work_time_ratio",
+    "teacher_support_density",
+    "performance_task_link",
+    "stage_evidence_link",
+    "checkpoint",
+    "exit_condition",
+    "learning_sheet_fields"
+  ],
+  "derived_or_optional_effect_fields": [
+    "router_effect",
+    "event_count_bias",
+    "explanation_density",
+    "demonstration_density",
+    "micro_practice_count",
+    "formal_creation_time",
+    "teacher_circulation_focus",
+    "showcase_evaluation_intensity",
+    "evidence_collection_mode"
+  ],
+  "boundaries": {
+    "modifies_r97b": false,
+    "adds_route": false,
+    "modifies_frontend_backend": false,
+    "uses_runtime": false,
+    "uses_provider_model": false,
+    "changes_prompt": false,
+    "uses_database": false,
+    "lesson_body_writeback": false,
+    "modifies_r223m_n_o_teacher_manuscripts": false,
+    "modifies_r222d_component_library": false,
+    "publishes_v0_2": false,
+    "creates_html_page": false,
+    "formal_apply": false
+  },
+  "decision_target": "PASS_CONTINUE_TO_R224E_UNIT_ROUTER_STANDARD_CANDIDATE_LOCK"
+}

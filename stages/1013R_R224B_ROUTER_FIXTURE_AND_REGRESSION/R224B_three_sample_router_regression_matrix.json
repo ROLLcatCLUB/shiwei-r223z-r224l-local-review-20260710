@@ -1,0 +1,152 @@
+{
+  "stage_id": "1013R_R224B_ROUTER_FIXTURE_AND_REGRESSION",
+  "matrix_status": "regression_fixture_only",
+  "samples": [
+    {
+      "sample_id": "M_stationery",
+      "sample_name": "我为文具代言",
+      "router_values": {
+        "lesson_position_in_unit": "late",
+        "unit_phase_role": "practice_creation",
+        "practice_intensity": "high",
+        "student_work_time_ratio": "high",
+        "teacher_support_density": "heavy"
+      },
+      "density_effect": {
+        "explanation_density": "medium",
+        "demonstration_density": "targeted",
+        "micro_practice_count": "1-2",
+        "formal_creation_time": "high",
+        "showcase_evaluation_intensity": "high"
+      },
+      "must_show": [
+        "longer creation time",
+        "less whole-class explanation",
+        "teacher circulation and rescue",
+        "process photo",
+        "design reason",
+        "showcase expression"
+      ],
+      "must_not_show": [
+        "heavy introduction",
+        "technique trial as main outcome",
+        "teacher-made full model replacing student work"
+      ],
+      "teacher_default_view": {
+        "router_field_names_visible": false,
+        "expected_visible_effect": "More student practice, teacher circulation, process support, and evidence-rich showcase."
+      },
+      "review_ledger": {
+        "router_fields_allowed": true,
+        "must_trace": [
+          "unit_phase_role",
+          "practice_intensity",
+          "student_work_time_ratio",
+          "teacher_support_density",
+          "performance_task_link",
+          "stage_evidence_link"
+        ]
+      }
+    },
+    {
+      "sample_id": "N_paper_print",
+      "sample_name": "有趣的纸印",
+      "router_values": {
+        "lesson_position_in_unit": "middle",
+        "unit_phase_role": "technique_preparation",
+        "practice_intensity": "medium",
+        "student_work_time_ratio": "medium",
+        "teacher_support_density": "normal"
+      },
+      "density_effect": {
+        "explanation_density": "medium",
+        "demonstration_density": "comparison",
+        "micro_practice_count": "2-3",
+        "formal_creation_time": "medium",
+        "showcase_evaluation_intensity": "medium"
+      },
+      "must_show": [
+        "material observation",
+        "technique demonstration",
+        "trial sample",
+        "method comparison",
+        "learning sheet record",
+        "modest final work"
+      ],
+      "must_not_show": [
+        "heavy finished-product pressure",
+        "full creation lesson",
+        "beauty-only showcase"
+      ],
+      "teacher_default_view": {
+        "router_field_names_visible": false,
+        "expected_visible_effect": "Controlled trials, method comparison, and evidence of paper/material/print-mark relationship."
+      },
+      "review_ledger": {
+        "router_fields_allowed": true,
+        "must_trace": [
+          "unit_phase_role",
+          "practice_intensity",
+          "student_work_time_ratio",
+          "teacher_support_density",
+          "performance_task_link",
+          "stage_evidence_link"
+        ]
+      }
+    },
+    {
+      "sample_id": "O_color_collision",
+      "sample_name": "色彩的碰撞",
+      "router_values": {
+        "lesson_position_in_unit": "early",
+        "unit_phase_role": "intro_understanding",
+        "practice_intensity": "medium",
+        "student_work_time_ratio": "medium",
+        "teacher_support_density": "normal"
+      },
+      "density_effect": {
+        "explanation_density": "medium",
+        "demonstration_density": "medium",
+        "micro_practice_count": "2",
+        "formal_creation_time": "medium",
+        "showcase_evaluation_intensity": "medium"
+      },
+      "must_show": [
+        "life color observation",
+        "color mixing micro-practice",
+        "color difference expression",
+        "color naming",
+        "small work explanation"
+      ],
+      "must_not_show": [
+        "heavy creation lesson",
+        "science-only color experiment",
+        "full painting product pressure"
+      ],
+      "teacher_default_view": {
+        "router_field_names_visible": false,
+        "expected_visible_effect": "Early-unit observation, color trial, naming, and visual expression without heavy creation."
+      },
+      "review_ledger": {
+        "router_fields_allowed": true,
+        "must_trace": [
+          "unit_phase_role",
+          "practice_intensity",
+          "student_work_time_ratio",
+          "teacher_support_density",
+          "performance_task_link",
+          "stage_evidence_link"
+        ]
+      }
+    }
+  ],
+  "global_regression_assertions": {
+    "three_samples_have_complete_router_values": true,
+    "density_effects_are_not_identical": true,
+    "teacher_default_view_hides_router_field_names": true,
+    "review_ledger_preserves_router_fields": true,
+    "does_not_modify_existing_teacher_manuscripts": true,
+    "does_not_publish_v0_2": true,
+    "does_not_create_html": true
+  }
+}
